@@ -1,0 +1,28 @@
+/*
+      GET -> Pegar os dados
+      POST -> Enviar os dados
+      PUT -> Alterar os dados no backend, altera todo o objeto
+      DELETE -> Deletar os dados no backend
+      
+      OPTIONS -> Verifica endpoint antes de mandar os dados com POST, PUT, DELETE
+      // Raro de usar
+      PATCH -> Alterar partes de um objeto
+
+      CRUDL
+        - Create
+        - Read
+        - Update
+        - Delete
+        - List
+
+      Reat -> ler um item
+        HTTP GET -> /produtos/:id
+      List -> Buscar todos os itens - Lista/Array
+        HTTP GET -> /produtos
+      Create -> Adicionar um item
+        HTTP POST -> /produtos
+      Update -> Alterar um produto
+        HTTP PUT -> /produtos/:id
+      Delete -> Remover um produto
+        HTTP DELETE -> /produtos/:id
+    */

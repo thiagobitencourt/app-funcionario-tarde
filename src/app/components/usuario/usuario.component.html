@@ -1,0 +1,13 @@
+
+<div>
+  <p *ngIf="usuario">
+    <b>Usuário: </b>
+    <span>{{ usuario.nome }}</span> | 
+    <span>{{ usuario.email }}</span>
+  </p>
+  <button (click)="entrar()" *ngIf="!usuario" type="button">Fazer login</button>
+  <button (click)="sair()" *ngIf="usuario" type="button">Sair</button>
+
+  <button style="margin-left: 10px;" (click)="criarUsuario()">Criar usuário</button>
+  <button style="margin-left: 10px;" (click)="editarUsuario()">Editar usuário</button>
+</div>

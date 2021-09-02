@@ -1,0 +1,16 @@
+
+<div class="detalhes-funcionario">
+  <p>
+    <b>Nome: </b>
+    <span>{{ funcionario?.nome }}</span>
+  </p>
+  <p>
+    <b>Cargo: </b>
+    <span>{{ funcionario?.cargo }}</span>
+  </p>
+  <p>
+    <b>Filial: </b>
+    <span>{{ funcionario?.filial | filial }}</span>
+  </p>
+  <button (click)="deselecionar()" class="btn" type="button">Deselecionar</button>
+</div>

@@ -1,0 +1,41 @@
+<app-detalhes-funcionario
+  *ngIf="funcionarioSelecionado"
+  [funcionario]="funcionarioSelecionado"
+  (deselecionarFuncionario)="deselecionarFuncionario()"
+></app-detalhes-funcionario>
+
+<table>
+  <thead>
+    <th>Nome funcionário</th>
+    <th>Filial</th>
+    <th>Data de admissão</th>
+    <th>Cargo</th>
+    <th>Salário</th>
+    <th>Ver Detalhes</th>
+    <th>Remover</th>
+  </thead>
+  <tbody>
+    <tr
+      class="item-lista"
+      *ngFor="let funcionario of funcionarios"
+      (click)="selecionarFuncionario(funcionario)"
+    >
+      <td>{{ funcionario.nome | uppercase }}</td>
+      <td>{{ funcionario.filial | filial: false }}</td>
+      <td>{{ funcionario.dataAdmissao | date:'dd/MM/yyyy' }}</td>
+      <td>{{ funcionario.cargo }}</td>
+      <td>{{ funcionario.salario | currency:'BRL' }}</td>
+      <td class="acao" (click)="mostrarDetalhes(funcionario.nome)">Detalhes</td>
+      <td class="acao" (click)="removerFuncionario(funcionario)">Remover</td>
+    </tr>
+  </tbody>
+</table>
+
+<div>
+  <button (click)="removerTodosFuncionarios()" type="button">Remover todos</button>
+  <button (click)="removerUltimoFuncionario()" type="button">Remover o último funcionários</button>
+  <button (click)="adicionarFuncionario()" type="button">Adicionar funcionário</button>
+</div>
+
+<hr />
+<a [href]="linkSiteNoticias" target="_blank">Site de noticias</a>

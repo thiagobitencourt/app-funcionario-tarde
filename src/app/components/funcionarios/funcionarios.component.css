@@ -1,0 +1,18 @@
+.acao {
+  cursor: pointer;
+  color: chocolate;
+}
+
+.acao:hover {
+  background-color: chocolate;
+  color: white;
+}
+
+button {
+  margin-right: 10px;
+}
+
+.item-lista:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}

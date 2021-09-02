@@ -1,0 +1,111 @@
+{
+  "funcionarios": [
+    {
+      "id": 1,
+      "nome": "Jailson Santos",
+      "filial": "MATRIZ",
+      "dataAdmissao": "2020-08-22",
+      "cargo": "Assistente administrativo",
+      "salario": 5236.45
+    },
+    {
+      "id": 2,
+      "nome": "Carlos Eduardo",
+      "filial": "FILIAL_C",
+      "dataAdmissao": "2018-05-15",
+      "cargo": "Programador",
+      "salario": 3256
+    },
+    {
+      "id": 3,
+      "nome": "Adriana Zardony",
+      "filial": "FILIAL_A",
+      "dataAdmissao": "2021-03-09",
+      "cargo": "Analista de sistemas",
+      "salario": 5412.94
+    },
+    {
+      "id": 4,
+      "nome": "Rafaela Tartuna",
+      "filial": "FILIAL_B",
+      "dataAdmissao": "2019-01-22",
+      "cargo": "Arquiteto de software",
+      "salario": 5518
+    },
+    {
+      "id": 5,
+      "nome": "Bernardo Kaylos",
+      "filial": "FILIAL_B",
+      "dataAdmissao": "2017-10-28",
+      "cargo": "Arquiteto de software",
+      "salario": 7185.27
+    },
+    {
+      "id": 6,
+      "nome": "Laura Janice",
+      "filial": "FILIAL_A",
+      "dataAdmissao": "2020-11-04",
+      "cargo": "Analista de qualidade",
+      "salario": 6281.65518
+    },
+    {
+      "id": 7,
+      "nome": "Marcelo Madureira",
+      "filial": "FILIAL_A",
+      "dataAdmissao": "2018-07-18",
+      "cargo": "Coordenador",
+      "salario": 8497.23
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Roberto",
+      "sobrenome": "Carlos",
+      "email": "reberto.carlos@triersistemas.com.br",
+      "filial": "MATRIZ"
+    },
+    {
+      "id": 2,
+      "nome": "Zinedin",
+      "sobrenome": "Zidane",
+      "email": "zinedin.zidane@realmadrid.com.es",
+      "filial": "MATRIZ"
+    },
+    {
+      "nome": "Felipe",
+      "sobrenome": "Souza",
+      "email": "felipe.souza@trier.com",
+      "filial": "FILIAL_C",
+      "id": 3
+    },
+    {
+      "nome": "Jorge ",
+      "sobrenome": "Machado",
+      "email": "jorge.machado@gmail.com",
+      "filial": "FILIAL_B",
+      "id": 4
+    },
+    {
+      "nome": "Felipe",
+      "sobrenome": "Souza",
+      "email": "felipe.souza@trier.com",
+      "filial": "FILIAL_C",
+      "id": 5
+    },
+    {
+      "nome": "Felipe",
+      "sobrenome": "Souza",
+      "email": "felipe.souza@trier.com",
+      "filial": "FILIAL_C",
+      "id": 6
+    },
+    {
+      "nome": "Thiago",
+      "sobrenome": "Bitencourt",
+      "email": "thiago.bitencourt@triersistemas.com.br",
+      "filial": "MATRIZ",
+      "id": 7
+    }
+  ]
+}
